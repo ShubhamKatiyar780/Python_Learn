@@ -22,6 +22,6 @@ class Reverse:
             s = self.var
         if len(s) == 0:
             return s
-        return s[-1] + self.reverse_string(s[ : -1])
+        return s[1] + self.reverse_string(s[ : -1])
         
 obj = Reverse()
